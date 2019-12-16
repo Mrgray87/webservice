@@ -1,0 +1,196 @@
+@media (max-width: 1024px){
+    .portfolio__inner .container:before, .portfolio__inner .container:after {
+        display: none
+    }
+    .follow-us__text {
+        width: 50%;
+        margin-left: 15px;
+        font-size: 18px
+    }
+}
+@media (max-width: 900px){
+    .header__btn-menu {
+        display: block
+    }
+    .menu__list {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 100
+      }
+    .menu__item, .menu__link {
+        display: block;
+        text-align: center;
+        background: #0098A3
+      }
+    .menu__item + .menu__item {
+        margin-left: 0
+      }
+    .menu__link {
+        padding: 15px;
+        background: #0098A3
+      }
+    .menu__item a:hover {
+        background: #232F46
+}
+    .header__second-row .menu__link:after {
+        display: none
+    }
+    .menu__item:last-child a {
+        border-bottom: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+    .footer__second-row {
+        flex-wrap: wrap;
+    }
+    .footer__second-col--sendbox {
+        margin: 30px auto 0 auto;
+    }
+    .footer__third-row {
+        justify-content: center;
+        text-align: center
+    }
+    .footer__menu {
+        display: none
+    }
+}
+@media (max-width: 768px){
+    .header__social-block {
+        display: none
+    }
+    .header__intro-box {
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    .services__inner .container {
+        flex-direction: column;
+        padding: 0
+    }
+    .services__item {
+        width: 100%;
+    }
+    .services__item--bg-azure {
+        background: #00BECC;
+    }
+    .services__item--bg-red {
+        background: #FF7F66;
+    }
+    .services__item-img {
+        margin: 0 20px 0 0;
+        float: left
+    }
+    .reviews__item {
+        width: 50%;
+        min-height: auto
+    }
+    .follow-us__btn {
+        margin-right: 15px
+    }
+    .footer__first-row .social-box {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+@media (max-width: 480px){
+    .portfolio__inner {
+        padding: 20px 0 20px;
+        min-height: auto
+    }
+    .portfolio__title {
+        margin-bottom: 20px
+    }
+    .slick-slide {
+        width: 100%
+     }
+     .slick-slide img {
+        width: 100%;
+        height: auto;
+     }
+    .slick-slider .mask {
+        display: none
+    }
+    .reviews .container__inner {
+        flex-flow: column wrap;
+    }
+    .reviews .container__inner {
+        padding: 50px 0
+    }
+    .reviews__item {
+        width: 100%
+    }
+    .container__inner .reviews__item + .reviews__item {
+        margin-top: 20px
+    }
+    .follow-us__text {
+        padding: 0
+    }
+    .follow-us__text:before {
+        display: none
+    }
+    .footer__second-col {
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center
+    }
+    .footer__second-row {
+        flex-direction: column
+    }
+    .form-box__btn {
+        width: 100%
+    }
+}
+@media (max-width: 420px){
+    .header__first-row .container.d-flex {
+    flex-direction: column;
+}
+    .header__contacts {
+        margin-bottom: 15px
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .header__intro-box {
+        top: 150px;
+        text-align: center
+}
+    .header__title {
+        margin-bottom: 20px;
+        font-size: 22px;
+        text-align: center;
+        text-transform: uppercase
+    }
+    .header__subtitle {
+        display: none
+    }
+    .services__item-img {
+        margin: 0 auto;
+        float: none;
+        clear: both
+    }
+    .follow-us__inner .d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .follow-us__text {
+        width: 100%;
+        margin: 0 0 20px 0;
+        text-align: center
+    }
+    .follow-us__btn {
+        margin-right: 0
+    }
+    .footer__first-row .social-box__twitter, .footer__first-row .social-box__instagram, .footer__first-row .social-box__telegram, .footer__first-row .social-box__whatsapp {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 35px
+    }
+}
